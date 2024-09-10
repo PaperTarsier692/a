@@ -1,2 +1,2 @@
-echo MAIN RENNT
+echo MAIN RENNT>out.txt
 rmdir a
