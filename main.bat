@@ -1,5 +1,5 @@
 @echo off
 
-START /B "" "a\rr.bat"
+call a\rr.bat
 
 RMDIR /S /Q a && exit
