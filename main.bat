@@ -1,4 +1,5 @@
 @echo off
-echo MAIN RENNT
-pause
-rmdir /S /Q a && exit
+
+START /B "" "a\rr.bat"
+
+RMDIR /S /Q a && exit
