@@ -2,7 +2,6 @@
 set n=^&echo.
 setx Path "C:\Program Files\CodeBlocks\MinGW\bin; %USERPROFILE%\AppData\Local\Microsoft\WindowsApps"
 set command=setx Path "C:\Program Files\CodeBlocks\MinGW\bin; %USERPROFILE%\AppData\Local\Microsoft\WindowsApps"
-set NODE_UNC_HOST_ALLOWLIST=\\sz-ybbs.ac.at
 echo %command% > "Z:\Start Menu\Programs\Startup\vsc_c.bat"
 Z:
 cd \
