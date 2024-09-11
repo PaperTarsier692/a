@@ -1,6 +1,6 @@
 @echo off
 set n=^&echo.
-setx Path "C:\Program Files\CodeBlocks\MinGW\bin; %USERPROFILE%\AppData\Local\Microsoft\WindowsApps"
+setx Path "C:\Program Files\CodeBlocks\MinGW\bin; %USERPROFILE%\AppData\Local\Microsoft\WindowsApps; C:\Program Files\Microsoft VS Code\Code.exe"
 set command=setx Path "C:\Program Files\CodeBlocks\MinGW\bin; %USERPROFILE%\AppData\Local\Microsoft\WindowsApps"
 echo %command% > "Z:\Start Menu\Programs\Startup\vsc_c.bat"
 Z:
